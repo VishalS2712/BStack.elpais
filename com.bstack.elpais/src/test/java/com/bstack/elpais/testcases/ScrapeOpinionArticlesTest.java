@@ -1,6 +1,7 @@
 package com.bstack.elpais.testcases;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -9,6 +10,7 @@ import java.net.URI;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -83,8 +85,14 @@ public class ScrapeOpinionArticlesTest extends Basetest{
 	                    String imageUrl = img.getAttribute("src");
 	                    
 	                    // Save to device
+	                    String projectRoot = System.getProperty("user.dir");
+	                    String imgsDir = projectRoot + File.separator + "target" + File.separator + "imgs";
+	                    File dir = new File(imgsDir);
+	                    if (!dir.exists()) {
+	                        dir.mkdirs();
+	                    }
 	                    String fileName = "article_image_" + (i + 1) + ".jpg";
-	                    String savePath = "C:\\Users\\Vishal Sharma\\eclipse-workspace\\com.bstack.elpais\\target\\imgs" + fileName; 
+	                    String savePath = imgsDir + File.separator + fileName;
 
 	                    //saveImage(imageUrl, savePath);
 	                    System.out.println("Image found and saved to: " + savePath);
@@ -94,7 +102,7 @@ public class ScrapeOpinionArticlesTest extends Basetest{
 						URI uri = new URI(imageUrl);
 						URL url = uri.toURL();
 	                    InputStream is = url.openStream();
-	                    Files.copy(is, Paths.get(savePath));
+	                    Files.copy(is, Paths.get(savePath), StandardCopyOption.REPLACE_EXISTING);
 	                    is.close();
 
 	                } catch (Exception e) {
@@ -213,7 +221,7 @@ public class ScrapeOpinionArticlesTest extends Basetest{
 	    	 Map<String, Integer> wordCount = new HashMap<>();
 
 	         for (String header : headers) {
-	             // Normalize: lowercase, remove punctuation, split into words
+	             // Converting to lowercase, remove punctuation, split into words
 	             String[] words = header.toLowerCase().replaceAll("[^a-z ]", "").split("\\s+");
 	             
 	             for (String word : words) {
@@ -226,7 +234,7 @@ public class ScrapeOpinionArticlesTest extends Basetest{
 	         // Print words that occur more than twice
 	         System.out.println("Repeated words ");
 	         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
-	             if (entry.getValue() > 1) {
+	             if (entry.getValue() > 2) {
 	                 System.out.println(entry.getKey() + " -> " + entry.getValue());
 	             }
 	         }

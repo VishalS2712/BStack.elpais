@@ -1,5 +1,6 @@
 package com.bstack.elpais.baseTest;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -13,8 +14,17 @@ public class Basetest {
 	
 	@BeforeClass
 	public void setUp() {
-		 	
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Vishal Sharma\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		String root = System.getProperty("user.dir");
+		String driverPath = root
+	            + File.separator + "src"
+	            + File.separator + "main"
+	            + File.separator + "java"
+	            + File.separator + "com"
+	            + File.separator + "bstack"
+	            + File.separator + "elpais"
+	            + File.separator + "baseTest"
+	            + File.separator + "chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", driverPath);
         driver = new ChromeDriver();
         //driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
