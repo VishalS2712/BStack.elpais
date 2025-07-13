@@ -107,3 +107,9 @@
 17:08:25.416 [Worker-241: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 17:08:25.417 [Worker-241: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
 17:08:25.420 [Worker-241: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:11:46.920 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:11:46.920 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:11:46.921 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.bstack.elpais
+17:11:46.921 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:11:46.921 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:11:46.923 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.bstack.elpais

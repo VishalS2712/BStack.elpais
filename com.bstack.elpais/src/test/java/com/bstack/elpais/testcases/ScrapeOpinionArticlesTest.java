@@ -174,7 +174,7 @@ public class ScrapeOpinionArticlesTest extends Basetest{
 	                    // Set method and headers
 	                    conn.setRequestMethod("POST");
 	                    conn.setRequestProperty("Content-Type", "application/json");
-	                    conn.setRequestProperty("X-RapidAPI-Key", "78e4475852mshfe92f6a91371abep17f260jsnf379795961b0"); 
+	                    conn.setRequestProperty("X-RapidAPI-Key", "ea709d7a86mshda20345fa5b2390p199afajsn5397bc6c9650"); 
 	                    conn.setRequestProperty("X-RapidAPI-Host", "google-api31.p.rapidapi.com");
 
 	                    // Send JSON body
