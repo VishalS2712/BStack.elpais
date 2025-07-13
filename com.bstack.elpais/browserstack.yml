@@ -1,0 +1,35 @@
+userName: nihalkumarsharma_MnvWpr
+accessKey: TPbiPWq4QjsszYgcmUUh
+
+platforms:
+  - deviceName: Samsung Galaxy S25
+    osVersion: 15
+    browserName: Chrome
+    deviceOrientation: portrait
+  - browserName: chrome
+    osVersion: 15.0
+    deviceName: Google Pixel 9 Pro
+    deviceOrientation: portrait
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
+
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
+
+# Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
+# Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
+testObservability: true
+
+source: testNG:eclipse:v1.0.10

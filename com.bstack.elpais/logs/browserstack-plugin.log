@@ -1,0 +1,92 @@
+23:42:36.341 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+23:42:36.343 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=ZcyewVmhQgtq4pHBFq7d, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=vishalsharma_H8B4PN, BROWSERSTACK_FRAMEWORK=testNG, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=testNG:eclipse:v1.0.10]
+23:42:36.346 [Worker-118: Launching mavenrun-0a2129c2-1d31-4262-927f-33bef594fa54] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:43:00.582 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:43:00.582 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:43:00.582 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.bstack.elpais
+23:43:00.583 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:43:00.583 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:43:00.583 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.bstack.elpais
+23:43:43.791 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:43:43.792 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:43:43.792 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.bstack.elpais
+23:43:43.792 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:43:43.792 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:43:43.793 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.bstack.elpais
+23:45:17.469 [Worker-115: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:45:17.470 [Worker-115: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:45:17.470 [Worker-115: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:45:17.472 [Worker-115: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:46:40.058 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:46:40.058 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:46:40.059 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.bstack.elpais
+00:46:40.059 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:46:40.059 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:46:40.060 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.bstack.elpais
+00:46:55.065 [Worker-123: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+00:46:55.066 [Worker-123: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:46:55.066 [Worker-123: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+00:46:55.068 [Worker-123: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:50:31.645 [Worker-128: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+00:50:31.646 [Worker-128: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:50:31.647 [Worker-128: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+00:50:31.649 [Worker-128: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+01:45:47.596 [Worker-138: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+01:45:47.598 [Worker-138: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+01:45:47.598 [Worker-138: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+01:45:47.600 [Worker-138: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+02:01:38.911 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:01:38.912 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:01:38.912 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.elpais.browserstack
+02:01:38.912 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:01:38.912 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:01:38.912 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.elpais.browserstack
+02:05:12.795 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:05:12.796 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:05:12.796 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/mobiletest
+02:05:12.796 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:05:12.796 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:05:12.796 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/mobiletest
+02:05:34.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:05:34.313 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:05:34.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/mobiletest
+02:05:34.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:05:34.314 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:05:34.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/mobiletest
+02:05:47.806 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:05:47.806 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:05:47.807 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/mobiletest
+02:05:47.807 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:05:47.807 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:05:47.807 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/mobiletest
+02:06:18.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:06:18.338 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:06:18.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/mobiletest
+02:06:18.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:06:18.338 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:06:18.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/mobiletest
+02:06:19.840 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:06:19.841 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:06:19.841 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/mobiletest
+02:06:19.841 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:06:19.841 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:06:19.842 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/mobiletest
+16:12:10.260 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+16:12:10.280 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=TPbiPWq4QjsszYgcmUUh, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=nihalkumarsharma_MnvWpr, BROWSERSTACK_FRAMEWORK=testNG, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=testNG:eclipse:v1.0.10]
+16:12:10.284 [Worker-238: Launching mavenrun-3253f541-d298-4a33-a616-600f765a131f] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+16:12:29.677 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:12:29.677 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:12:29.678 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.bstack.elpais
+16:12:29.678 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:12:29.678 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:12:29.679 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.bstack.elpais
+16:12:50.501 [Worker-239: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+16:12:50.503 [Worker-239: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:12:50.504 [Worker-239: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+16:12:50.508 [Worker-239: Launching com.bstack.elpais_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+16:18:19.146 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:18:19.146 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:18:19.146 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.bstack.elpais
+16:18:19.147 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:18:19.147 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:18:19.147 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.bstack.elpais
